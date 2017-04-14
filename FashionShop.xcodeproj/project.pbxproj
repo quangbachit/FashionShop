@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8AF46DCA1EA0705F000403F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF46DC91EA0705F000403F1 /* AppDelegate.swift */; };
+		8AF46DCC1EA0705F000403F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF46DCB1EA0705F000403F1 /* ViewController.swift */; };
+		8AF46DCF1EA0705F000403F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AF46DCD1EA0705F000403F1 /* Main.storyboard */; };
+		8AF46DD11EA0705F000403F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AF46DD01EA0705F000403F1 /* Assets.xcassets */; };
+		8AF46DD41EA0705F000403F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AF46DD21EA0705F000403F1 /* LaunchScreen.storyboard */; };
+		8AF46DDF1EA0705F000403F1 /* FashionShopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF46DDE1EA0705F000403F1 /* FashionShopTests.swift */; };
+		8AF46DEA1EA0705F000403F1 /* FashionShopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF46DE91EA0705F000403F1 /* FashionShopUITests.swift */; };
+		8AF46DF81EA07078000403F1 /* ViewScroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF46DF71EA07078000403F1 /* ViewScroll.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8AF46DDB1EA0705F000403F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8AF46DBE1EA0705F000403F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8AF46DC51EA0705F000403F1;
+			remoteInfo = FashionShop;
+		};
+		8AF46DE61EA0705F000403F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8AF46DBE1EA0705F000403F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8AF46DC51EA0705F000403F1;
+			remoteInfo = FashionShop;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8AF46DC61EA0705F000403F1 /* FashionShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FashionShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AF46DC91EA0705F000403F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8AF46DCB1EA0705F000403F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8AF46DCE1EA0705F000403F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8AF46DD01EA0705F000403F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8AF46DD31EA0705F000403F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8AF46DD51EA0705F000403F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AF46DDA1EA0705F000403F1 /* FashionShopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FashionShopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AF46DDE1EA0705F000403F1 /* FashionShopTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FashionShopTests.swift; sourceTree = "<group>"; };
+		8AF46DE01EA0705F000403F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AF46DE51EA0705F000403F1 /* FashionShopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FashionShopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AF46DE91EA0705F000403F1 /* FashionShopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FashionShopUITests.swift; sourceTree = "<group>"; };
+		8AF46DEB1EA0705F000403F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AF46DF71EA07078000403F1 /* ViewScroll.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewScroll.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8AF46DC31EA0705F000403F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AF46DD71EA0705F000403F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AF46DE21EA0705F000403F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8AF46DBD1EA0705F000403F1 = {
+			isa = PBXGroup;
+			children = (
+				8AF46DC81EA0705F000403F1 /* FashionShop */,
+				8AF46DDD1EA0705F000403F1 /* FashionShopTests */,
+				8AF46DE81EA0705F000403F1 /* FashionShopUITests */,
+				8AF46DC71EA0705F000403F1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8AF46DC71EA0705F000403F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8AF46DC61EA0705F000403F1 /* FashionShop.app */,
+				8AF46DDA1EA0705F000403F1 /* FashionShopTests.xctest */,
+				8AF46DE51EA0705F000403F1 /* FashionShopUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8AF46DC81EA0705F000403F1 /* FashionShop */ = {
+			isa = PBXGroup;
+			children = (
+				8AF46DC91EA0705F000403F1 /* AppDelegate.swift */,
+				8AF46DCB1EA0705F000403F1 /* ViewController.swift */,
+				8AF46DCD1EA0705F000403F1 /* Main.storyboard */,
+				8AF46DD01EA0705F000403F1 /* Assets.xcassets */,
+				8AF46DD21EA0705F000403F1 /* LaunchScreen.storyboard */,
+				8AF46DD51EA0705F000403F1 /* Info.plist */,
+				8AF46DF71EA07078000403F1 /* ViewScroll.swift */,
+			);
+			path = FashionShop;
+			sourceTree = "<group>";
+		};
+		8AF46DDD1EA0705F000403F1 /* FashionShopTests */ = {
+			isa = PBXGroup;
+			children = (
+				8AF46DDE1EA0705F000403F1 /* FashionShopTests.swift */,
+				8AF46DE01EA0705F000403F1 /* Info.plist */,
+			);
+			path = FashionShopTests;
+			sourceTree = "<group>";
+		};
+		8AF46DE81EA0705F000403F1 /* FashionShopUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8AF46DE91EA0705F000403F1 /* FashionShopUITests.swift */,
+				8AF46DEB1EA0705F000403F1 /* Info.plist */,
+			);
+			path = FashionShopUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8AF46DC51EA0705F000403F1 /* FashionShop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AF46DEE1EA0705F000403F1 /* Build configuration list for PBXNativeTarget "FashionShop" */;
+			buildPhases = (
+				8AF46DC21EA0705F000403F1 /* Sources */,
+				8AF46DC31EA0705F000403F1 /* Frameworks */,
+				8AF46DC41EA0705F000403F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FashionShop;
+			productName = FashionShop;
+			productReference = 8AF46DC61EA0705F000403F1 /* FashionShop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8AF46DD91EA0705F000403F1 /* FashionShopTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AF46DF11EA0705F000403F1 /* Build configuration list for PBXNativeTarget "FashionShopTests" */;
+			buildPhases = (
+				8AF46DD61EA0705F000403F1 /* Sources */,
+				8AF46DD71EA0705F000403F1 /* Frameworks */,
+				8AF46DD81EA0705F000403F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8AF46DDC1EA0705F000403F1 /* PBXTargetDependency */,
+			);
+			name = FashionShopTests;
+			productName = FashionShopTests;
+			productReference = 8AF46DDA1EA0705F000403F1 /* FashionShopTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8AF46DE41EA0705F000403F1 /* FashionShopUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AF46DF41EA0705F000403F1 /* Build configuration list for PBXNativeTarget "FashionShopUITests" */;
+			buildPhases = (
+				8AF46DE11EA0705F000403F1 /* Sources */,
+				8AF46DE21EA0705F000403F1 /* Frameworks */,
+				8AF46DE31EA0705F000403F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8AF46DE71EA0705F000403F1 /* PBXTargetDependency */,
+			);
+			name = FashionShopUITests;
+			productName = FashionShopUITests;
+			productReference = 8AF46DE51EA0705F000403F1 /* FashionShopUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8AF46DBE1EA0705F000403F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = QuangBach;
+				TargetAttributes = {
+					8AF46DC51EA0705F000403F1 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+					};
+					8AF46DD91EA0705F000403F1 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8AF46DC51EA0705F000403F1;
+					};
+					8AF46DE41EA0705F000403F1 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8AF46DC51EA0705F000403F1;
+					};
+				};
+			};
+			buildConfigurationList = 8AF46DC11EA0705F000403F1 /* Build configuration list for PBXProject "FashionShop" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8AF46DBD1EA0705F000403F1;
+			productRefGroup = 8AF46DC71EA0705F000403F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8AF46DC51EA0705F000403F1 /* FashionShop */,
+				8AF46DD91EA0705F000403F1 /* FashionShopTests */,
+				8AF46DE41EA0705F000403F1 /* FashionShopUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8AF46DC41EA0705F000403F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AF46DD41EA0705F000403F1 /* LaunchScreen.storyboard in Resources */,
+				8AF46DD11EA0705F000403F1 /* Assets.xcassets in Resources */,
+				8AF46DCF1EA0705F000403F1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AF46DD81EA0705F000403F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AF46DE31EA0705F000403F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8AF46DC21EA0705F000403F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AF46DF81EA07078000403F1 /* ViewScroll.swift in Sources */,
+				8AF46DCC1EA0705F000403F1 /* ViewController.swift in Sources */,
+				8AF46DCA1EA0705F000403F1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AF46DD61EA0705F000403F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AF46DDF1EA0705F000403F1 /* FashionShopTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AF46DE11EA0705F000403F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AF46DEA1EA0705F000403F1 /* FashionShopUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8AF46DDC1EA0705F000403F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8AF46DC51EA0705F000403F1 /* FashionShop */;
+			targetProxy = 8AF46DDB1EA0705F000403F1 /* PBXContainerItemProxy */;
+		};
+		8AF46DE71EA0705F000403F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8AF46DC51EA0705F000403F1 /* FashionShop */;
+			targetProxy = 8AF46DE61EA0705F000403F1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8AF46DCD1EA0705F000403F1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8AF46DCE1EA0705F000403F1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8AF46DD21EA0705F000403F1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8AF46DD31EA0705F000403F1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8AF46DEC1EA0705F000403F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8AF46DED1EA0705F000403F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8AF46DEF1EA0705F000403F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FashionShop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bach.FashionShop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		8AF46DF01EA0705F000403F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FashionShop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bach.FashionShop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		8AF46DF21EA0705F000403F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FashionShopTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bach.FashionShopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FashionShop.app/FashionShop";
+			};
+			name = Debug;
+		};
+		8AF46DF31EA0705F000403F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FashionShopTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bach.FashionShopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FashionShop.app/FashionShop";
+			};
+			name = Release;
+		};
+		8AF46DF51EA0705F000403F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = FashionShopUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bach.FashionShopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FashionShop;
+			};
+			name = Debug;
+		};
+		8AF46DF61EA0705F000403F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = FashionShopUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bach.FashionShopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FashionShop;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8AF46DC11EA0705F000403F1 /* Build configuration list for PBXProject "FashionShop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AF46DEC1EA0705F000403F1 /* Debug */,
+				8AF46DED1EA0705F000403F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8AF46DEE1EA0705F000403F1 /* Build configuration list for PBXNativeTarget "FashionShop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AF46DEF1EA0705F000403F1 /* Debug */,
+				8AF46DF01EA0705F000403F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8AF46DF11EA0705F000403F1 /* Build configuration list for PBXNativeTarget "FashionShopTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AF46DF21EA0705F000403F1 /* Debug */,
+				8AF46DF31EA0705F000403F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8AF46DF41EA0705F000403F1 /* Build configuration list for PBXNativeTarget "FashionShopUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AF46DF51EA0705F000403F1 /* Debug */,
+				8AF46DF61EA0705F000403F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8AF46DBE1EA0705F000403F1 /* Project object */;
+}
